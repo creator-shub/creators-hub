@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="flex justify-between items-center px-10 py-6">
+    <nav className="sticky top-0 z-50 flex justify-between items-center px-10 py-5 bg-black/70 backdrop-blur-md border-b border-zinc-800">
       <h1 className="text-3xl font-bold text-red-500">
         Creators Hub
       </h1>

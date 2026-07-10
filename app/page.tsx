@@ -1,3 +1,4 @@
+import Platforms from "@/components/Platforms";
 import CTA from "../components/CTA";
 import Footer from "../components/Footer";
 import Statistics from "../components/Statistics";
@@ -14,6 +15,7 @@ export default function Home() {
       <Statistics />
       <Footer />
       <CTA />
+      <Platforms />
 
     </main>
   );

@@ -1,42 +1,77 @@
 export default function Features() {
+  const features = [
+    {
+      title: "YouTube Growth",
+      description: "Learn advanced strategies to grow your YouTube channel faster.",
+      icon: "📺",
+    },
+    {
+      title: "AI Tools",
+      description: "Generate scripts, titles, hashtags and thumbnails with AI.",
+      icon: "🤖",
+    },
+    {
+      title: "Creator Community",
+      description: "Connect with thousands of creators around the world.",
+      icon: "🌍",
+    },
+    {
+      title: "Monetization",
+      description: "Discover new ways to earn from your content.",
+      icon: "💰",
+    },
+    {
+      title: "Analytics",
+      description: "Track your growth with powerful creator insights.",
+      icon: "📊",
+    },
+    {
+      title: "Learning Hub",
+      description: "Access premium courses, guides and creator resources.",
+      icon: "🎓",
+    },
+  ];
+
   return (
-    <section className="py-20 px-6 bg-gray-950">
+    <section className="py-24 px-6 bg-black text-white">
+      <div className="max-w-7xl mx-auto">
 
-      <h2 className="text-4xl font-bold text-center mb-14 text-white">
-        Why Join Creators Hub?
-      </h2>
+        <h2 className="text-5xl font-bold text-center mb-4">
+          Why Join Creators Hub?
+        </h2>
 
-      <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <p className="text-center text-gray-400 mb-16">
+          Everything a creator needs in one powerful platform.
+        </p>
 
-        <div className="bg-gray-900 p-8 rounded-2xl">
-          <h3 className="text-2xl font-bold text-red-500 mb-3">
-            🚀 Grow Faster
-          </h3>
-          <p className="text-gray-300">
-            Learn from other creators and improve your content with valuable feedback.
-          </p>
-        </div>
+        <div className="grid md:grid-cols-3 gap-8">
 
-        <div className="bg-gray-900 p-8 rounded-2xl">
-          <h3 className="text-2xl font-bold text-blue-500 mb-3">
-            🤝 Strong Community
-          </h3>
-          <p className="text-gray-300">
-            Connect with creators from different social media platforms.
-          </p>
-        </div>
+          {features.map((feature, index) => (
 
-        <div className="bg-gray-900 p-8 rounded-2xl">
-          <h3 className="text-2xl font-bold text-pink-500 mb-3">
-            🤖 AI Resources
-          </h3>
-          <p className="text-gray-300">
-            Access AI tools, prompts, workflows and creator resources.
-          </p>
+            <div
+              key={index}
+              className="bg-zinc-900 rounded-2xl p-8 hover:bg-red-600 transition duration-300"
+            >
+
+              <div className="text-5xl mb-5">
+                {feature.icon}
+              </div>
+
+              <h3 className="text-2xl font-bold mb-3">
+                {feature.title}
+              </h3>
+
+              <p className="text-gray-300">
+                {feature.description}
+              </p>
+
+            </div>
+
+          ))}
+
         </div>
 
       </div>
-
     </section>
   );
 }
