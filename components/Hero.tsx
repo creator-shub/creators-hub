@@ -7,12 +7,11 @@ export default function Hero() {
       </h1>
 
       <p className="text-2xl text-gray-300 mb-6">
-        One Platform. Every Creator.
+         Build. Grow. Monetize.
       </p>
 
       <p className="max-w-2xl text-gray-400 mb-10">
-        Join the world's fastest growing community for YouTube, TikTok,
-        Facebook and Instagram creators.
+        Learn, grow and connect with creators from YouTube, TikTok, Facebook and Instagram — all in one powerful platform.
       </p>
 
       <div className="flex justify-center gap-4 flex-wrap mb-10">
@@ -24,11 +23,11 @@ export default function Hero() {
 
       <div className="flex gap-4 flex-wrap justify-center">
         <button className="bg-red-600 hover:bg-red-700 transition px-8 py-4 rounded-xl text-xl font-bold">
-          Join Community
+          Join Free
         </button>
 
         <button className="border border-white hover:bg-white hover:text-black transition px-8 py-4 rounded-xl text-xl font-bold">
-          Learn More
+          Watch Demo
         </button>
       </div>
 
