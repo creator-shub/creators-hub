@@ -20,9 +20,17 @@ export default function Navbar() {
         </a>
       </div>
 
-      <button className="bg-red-600 px-6 py-2 rounded-lg hover:bg-red-700 transition">
-        Login
-      </button>
+      <div className="flex gap-3">
+
+  <button className="border border-white px-5 py-2 rounded-lg hover:bg-white hover:text-black transition">
+    Login
+  </button>
+
+  <button className="bg-red-600 px-5 py-2 rounded-lg hover:bg-red-700 transition">
+    Join Free
+  </button>
+
+</div>
     </nav>
   );
 }
