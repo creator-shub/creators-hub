@@ -1,6 +1,28 @@
+<div className="flex justify-between items-center mb-6">
+
+  <label className="flex items-center gap-2 text-gray-400">
+
+    <input
+      type="checkbox"
+      className="accent-red-600"
+    />
+
+    Remember Me
+
+  </label>
+
+  <a
+    href="#"
+    className="text-red-500 hover:underline"
+  >
+    Forgot Password?
+  </a>
+
+</div>
 export default function Login() {
   return (
-    <section className="py-24 bg-zinc-950 text-white">
+
+<section className="py-24 bg-zinc-950 text-white">
 
       <div className="max-w-md mx-auto bg-zinc-900 rounded-2xl p-8 shadow-2xl">
 
