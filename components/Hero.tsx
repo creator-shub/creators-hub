@@ -144,7 +144,21 @@ export default function Hero() {
           </div>
 
         </div>
+<div className="mt-8 bg-zinc-800 rounded-2xl p-5 border border-zinc-700">
 
+  <p className="text-gray-400 text-sm">
+    Monthly Revenue
+  </p>
+
+  <h2 className="text-4xl font-bold mt-2">
+    $12,450
+  </h2>
+
+  <p className="text-green-400 mt-2 font-semibold">
+    ▲ +18.5% this month
+  </p>
+
+</div>
       </div>
     </section>
   );
