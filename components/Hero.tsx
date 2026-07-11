@@ -1,6 +1,7 @@
 export default function Hero() {
   return (
-    <section className="flex flex-col items-center justify-center text-center px-6 py-24">
+    <section className="max-w-7xl mx-auto px-6 py-24">
+      <div className="grid lg:grid-cols-2 gap-16 items-center">
 
       <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold leading-tight mb-6">
         CREATORS HUB
@@ -33,6 +34,38 @@ Monetize.
         <button className="border border-white hover:bg-white hover:text-black transition px-8 py-4 rounded-xl text-xl font-bold">
           Watch Demo
         </button>
+      </div>
+      <div className="bg-zinc-900 rounded-3xl p-8 border border-zinc-800 shadow-2xl">
+
+  <h3 className="text-2xl font-bold mb-6">
+    Creator Dashboard
+  </h3>
+
+  <div className="space-y-4">
+
+    <div className="flex justify-between">
+      <span>YouTube Growth</span>
+      <span className="text-red-500 font-bold">+245%</span>
+    </div>
+
+    <div className="flex justify-between">
+      <span>TikTok Views</span>
+      <span className="text-green-400 font-bold">12.8M</span>
+    </div>
+
+    <div className="flex justify-between">
+      <span>Facebook Reach</span>
+      <span className="text-blue-400 font-bold">890K</span>
+    </div>
+
+    <div className="flex justify-between">
+      <span>Instagram Followers</span>
+      <span className="text-pink-400 font-bold">156K</span>
+    </div>
+
+  </div>
+
+</div>
       </div>
 
     </section>
