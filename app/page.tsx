@@ -1,3 +1,6 @@
+import TrustedBy from "@/components/TrustedBy";
+import FAQ from "@/components/FAQ";
+import Testimonials from "@/components/Testimonials";
 import Login from "@/components/Login";
 import Platforms from "@/components/Platforms";
 import CTA from "../components/CTA";
@@ -16,7 +19,10 @@ export default function Home() {
       <Statistics />
       <Footer />
       <CTA />
+      <FAQ />
       <Platforms />
+      <TrustedBy />
+      <Testimonials />
       <Login />
 
     </main>
