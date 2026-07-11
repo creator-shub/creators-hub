@@ -1,3 +1,10 @@
+<div className="inline-flex items-center gap-2 bg-zinc-900 border border-zinc-700 rounded-full px-4 py-2 mb-8">
+  <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+
+  <span className="text-sm text-gray-300">
+    Trusted by 10,000+ Creators Worldwide
+  </span>
+</div>
 export default function Hero() {
   return (
     <section className="relative overflow-hidden max-w-7xl mx-auto px-6 py-24">
@@ -9,7 +16,7 @@ export default function Hero() {
         {/* Left Side */}
         <div className="text-center lg:text-left">
 
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold leading-tight mb-6">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight mb-6 bg-gradient-to-r from-white via-gray-200 to-red-500 bg-clip-text text-transparent">
             CREATORS HUB
           </h1>
 
@@ -57,11 +64,11 @@ export default function Hero() {
           </div>
 
           <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
-            <button className="bg-red-600 hover:bg-red-700 px-8 py-4 rounded-xl font-bold transition">
+            <button className="bg-red-600 hover:bg-red-700 hover:scale-105 hover:shadow-[0_0_35px_rgba(239,68,68,0.6)] px-8 py-4 rounded-xl font-bold transition-all duration-300">
               Join Free
             </button>
 
-            <button className="border border-white hover:bg-white hover:text-black px-8 py-4 rounded-xl font-bold transition">
+            <button className="border border-zinc-500 hover:border-white hover:bg-white hover:text-black hover:scale-105 px-8 py-4 rounded-xl font-bold transition-all duration-300">
               Watch Demo
             </button>
           </div>
@@ -72,6 +79,19 @@ export default function Hero() {
         <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 shadow-2xl">
 
           <h2 className="text-2xl font-bold mb-8">
+            <div className="grid grid-cols-2 gap-4 mb-8">
+
+  <div className="bg-zinc-800 rounded-xl p-4">
+    <p className="text-gray-400 text-sm">Active Creators</p>
+    <h3 className="text-2xl font-bold text-red-500">10K+</h3>
+  </div>
+
+  <div className="bg-zinc-800 rounded-xl p-4">
+    <p className="text-gray-400 text-sm">Monthly Views</p>
+    <h3 className="text-2xl font-bold text-green-400">50M+</h3>
+  </div>
+
+</div>
             Creator Dashboard
           </h2>
 
