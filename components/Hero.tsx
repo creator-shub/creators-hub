@@ -2,16 +2,20 @@ export default function Hero() {
   return (
     <section className="flex flex-col items-center justify-center text-center px-6 py-24">
 
-      <h1 className="text-6xl md:text-8xl lg:text-9xl font-extrabold mb-4">
+      <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold leading-tight mb-6">
         CREATORS HUB
       </h1>
 
       <p className="text-2xl text-gray-300 mb-6">
-         Build. Grow. Monetize.
+         Build.
+<br />
+Grow.
+<br />
+Monetize.
       </p>
 
-      <p className="max-w-2xl text-gray-400 mb-10">
-        Learn, grow and connect with creators from YouTube, TikTok, Facebook and Instagram — all in one powerful platform.
+      <p className="max-w-3xl text-lg md:text-xl text-gray-300 mb-10 leading-8">
+        Everything you need to build your audience, grow your brand, and monetize your content — all in one powerful platform.
       </p>
 
       <div className="flex justify-center gap-4 flex-wrap mb-10">
