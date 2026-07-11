@@ -1,6 +1,9 @@
 export default function Hero() {
   return (
-    <section className="max-w-7xl mx-auto px-6 py-24">
+    <section className="relative overflow-hidden max-w-7xl mx-auto px-6 py-24">
+      <div className="absolute top-20 left-20 w-72 h-72 bg-red-600/20 blur-[120px] rounded-full"></div>
+
+<div className="absolute bottom-10 right-20 w-72 h-72 bg-blue-600/20 blur-[120px] rounded-full"></div>
       <div className="grid lg:grid-cols-2 gap-16 items-center">
 
         {/* Left Side */}
