@@ -27,7 +27,7 @@ export default function Sidebar() {
         </Link>
 
         <Link
-          href="#"
+          href="/dashboard/ai-tools"
           className="flex items-center gap-3 p-3 rounded-xl hover:bg-zinc-800 transition"
         >
           <Bot size={20} />

@@ -1,3 +1,4 @@
+import StudioCards from "@/components/dashboard/StudioCards";
 import TrustedBy from "@/components/TrustedBy";
 import FAQ from "@/components/FAQ";
 import Testimonials from "@/components/Testimonials";
